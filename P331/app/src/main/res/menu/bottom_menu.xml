@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab1"
+        android:enabled="true"
+        android:icon="@drawable/h1"
+        android:title="이메일"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/tab2"
+        android:enabled="true"
+        android:icon="@drawable/h2"
+        android:title="Item"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/tab3"
+        android:icon="@drawable/h3"
+        android:title="Item"
+        app:showAsAction="ifRoom|withText" />
+</menu>
